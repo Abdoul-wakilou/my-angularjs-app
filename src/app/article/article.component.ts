@@ -14,10 +14,16 @@ export class ArticleComponent implements OnInit {
   descriptionArticle: string = "Voici la description du service ou produit"
   urlImage: string = "https://via.placeholder.com/286x180"
   AltImage: string= "Image du produit"
-
+  nombreJaime: number = 0
 
   constructor(){}
   ngOnInit(): void {
       
   }
+
+  onLike(){
+    this.nombreJaime++;
+  }
+
+
 }
