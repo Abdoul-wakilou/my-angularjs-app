@@ -12,8 +12,10 @@ export class ArticleComponent implements OnInit {
   titreArticle: string = "Moto wave"
   prixArticle: number = 50
   descriptionArticle: string = "Voici la description du service ou produit"
+  urlImage: string = "https://via.placeholder.com/286x180"
+  AltImage: string= "Image du produit"
 
-  
+
   constructor(){}
   ngOnInit(): void {
       
