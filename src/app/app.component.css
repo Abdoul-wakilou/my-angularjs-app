@@ -1,0 +1,27 @@
+ /* Styles personnalisés */
+ body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Contenu */
+.content {
+    padding: 30px 0;
+}
