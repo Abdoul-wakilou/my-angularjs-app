@@ -8,7 +8,8 @@
                     <h5 class="card-title">{{ titreArticle }}</h5>
                     <p class="card-text">{{ descriptionArticle }}</p>
                     <h6 class="card-subtitle mb-2 text-muted">Prix : {{ prixArticle }} €</h6>
-                    <a href="#" class="btn btn-primary">Acheter</a>
+                    <a href="#" class="btn btn-primary">J'aime</a>
+                    <p class="card-text">Nombre de j'aime : {{ nombreJaime }}</p>
                 </div>
             </div>
         </div>
@@ -20,19 +21,21 @@
                     <h5 class="card-title">{{ titreArticle }}</h5>
                     <p class="card-text">{{ descriptionArticle }}</p>
                     <h6 class="card-subtitle mb-2 text-muted">Prix : {{ prixArticle }} €</h6>
-                    <a href="#" class="btn btn-primary">Acheter</a>
+                    <a href="#" class="btn btn-primary" (click)="onLike()">J'aime</a>
+                    <p class="card-text">Nombre de j'aime : {{ nombreJaime }}</p>
                 </div>
             </div>
         </div>
         <!-- Card 3 -->
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="card" style="width: 100%;">
-                <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Image placeholder">
+                <img [src]="urlImage" class="card-img-top" [alt]="AltImage">
                 <div class="card-body">
                     <h5 class="card-title">{{ titreArticle }}</h5>
                     <p class="card-text">{{ descriptionArticle }}</p>
                     <h6 class="card-subtitle mb-2 text-muted">Prix : {{ prixArticle }} €</h6>
-                    <a href="#" class="btn btn-primary">Acheter</a>
+                    <a href="#" class="btn btn-primary" (click)="onLike()">J'aime</a>
+                    <p class="card-text">Nombre de j'aime : {{ nombreJaime }}</p>
                 </div>
             </div>
         </div>
@@ -44,7 +47,8 @@
                     <h5 class="card-title">{{ titreArticle }}</h5>
                     <p class="card-text">{{ descriptionArticle }}</p>
                     <h6 class="card-subtitle mb-2 text-muted">Prix : {{ prixArticle }} €</h6>
-                    <a href="#" class="btn btn-primary">Acheter</a>
+                    <a href="#" class="btn btn-primary" (click)="onLike()">J'aime</a>
+                    <p class="card-text">Nombre de j'aime : {{ nombreJaime }}</p>
                 </div>
             </div>
         </div>
